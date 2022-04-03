@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #3378f1;
+}
+
+p {
+    color: red;
+    margin-top: 5px;
+}
+
+.succ {
+    color: rgb(40, 212, 40);
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.App {
+    margin: 0 auto;
+    margin-top: 20px !important;
+    width: 100%;
+    text-align: center;
+}
+
+.App form {
+    margin: 0 auto;
+    margin-top: 20px !important;
+    width: 40%;
+    border: 1px solid red;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+}
+
+.App form .form-validation {
+    padding: 5px;
+    margin-top: 10px;
+    display: grid;
+    text-align: start;
+}
+
+.App form .form-validation .modul-input {
+    height: 46px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #3378f1;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.valid-btn {
+    margin-top: 20px;
+    width: 60%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #3378f1;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 575px) {
+    .App form {
+        width: 80%;
+    }
+}
